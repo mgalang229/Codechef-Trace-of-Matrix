@@ -30,6 +30,7 @@ int main() {
 		// j = this is where the column of the sub - matrix will start
 		// k = this will decide the length or height of the sub - matrix
 		// FindTrace will skip the values in both the y and x direction to directly add the value in the trace
+		// note: a single value is also CONSIDERED as a trace
 		int trace = 0;
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
